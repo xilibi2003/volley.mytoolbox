@@ -22,8 +22,8 @@
 
 ###3. PostJsonObjectRequest：用post 方式请求Json. 
 ####有两种来设置参数( 使用时可任选一种)：
-   1. setParams(Map<String,String> params); 
-   2. setParams(String key, String value);
+        setParams(Map<String,String> params); 
+        setParams(String key, String value);
    如：
 
     PostJsonObjectRequest jsObjRequest = new PostJsonObjectRequest(
